@@ -20,7 +20,21 @@ function showRemainingProjects(){
     for (let i = 0; i < projects.length; i++) {
         projects[i].style.display = 'block'
     } 
+
+    // Hide the "Load More" button after all projects are shown
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn) {
+        loadMoreBtn.style.display = 'none';
+    }
 }
 
 
 showFirstProject();
+
+// Add event listener for "Load More" button
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', showRemainingProjects);
+    }
+});
