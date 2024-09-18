@@ -1,6 +1,13 @@
 function showFirstProject() {
     // Get all projects into an array
-    const projects = document.getElementsByClassName('project');
+    const projects = Array.from(document.getElementsByClassName('project'));
+
+    // Sort projects by date - recent first
+    projects.sort((a, b) => {
+        const dateA = new Date(a.getAttribute('data-date'));
+        const dateB = new Date(b.getAttribute('data-date'));
+        return dateB - dateA;
+    });
 
     // Hide all projects initially
     for (let i = 0; i < projects.length; i++) {
@@ -10,6 +17,17 @@ function showFirstProject() {
     // Display only the first project
     if (projects.length > 0) {
         projects[0].style.display = 'block';
+    }
+    
+}
+
+function showBlankProject() {
+    // Get all projects into an array
+    const blank_project = document.getElementById('blank_project');
+
+    // Display blank project
+    if (blank_project) {
+        blank_project.style.display = 'block';
     }
     
 }
@@ -27,6 +45,11 @@ function showRemainingProjects(){
         loadMoreBtn.style.display = 'none';
     }
 }
+
+// // Run the function when the DOM is fully loaded to show blank project
+// document.addEventListener('DOMContentLoaded', function() {
+//     showBlankProject();
+//   });
 
 
 // Add event listener for "Load More" button
