@@ -1,6 +1,6 @@
 function showFirstProject() {
     // Get all projects into an array
-    const projects = document.getElementsByClassName('project');
+    const projects = document.getElementsByClassName('col s12 m6 l4');
 
     // Hide all projects initially
     for (let i = 0; i < projects.length; i++) {
