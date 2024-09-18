@@ -13,3 +13,7 @@
 ## Activity 3: Changing the Theme Color
 ![image](https://github.com/user-attachments/assets/0359b632-bd99-4b69-9861-637862a0bf96)
 ![image](https://github.com/user-attachments/assets/249402a4-1f29-4f5f-921e-9802b1f3f4d0)
+
+## Activity 4: Creating a New Section
+![image](https://github.com/user-attachments/assets/d83f838d-fd15-48a0-a332-03cd9f0115b6)
+![image](https://github.com/user-attachments/assets/a17b0e0a-6ad9-418b-bf0d-ed0d93ae6216)
