@@ -11,6 +11,16 @@ function showFirstProject() {
     if (projects.length > 0) {
         projects[0].style.display = 'block';
     }
+    
 }
+
+function showRemainingProjects(){
+    const projects = document.getElementsByClassName('project');
+
+    for (let i = 0; i < projects.length; i++) {
+        projects[i].style.display = 'block'
+    } 
+}
+
 
 showFirstProject();
