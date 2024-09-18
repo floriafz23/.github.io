@@ -17,3 +17,8 @@
 ## Activity 4: Creating a New Section
 ![image](https://github.com/user-attachments/assets/d83f838d-fd15-48a0-a332-03cd9f0115b6)
 ![image](https://github.com/user-attachments/assets/a17b0e0a-6ad9-418b-bf0d-ed0d93ae6216)
+
+## Activity 5: Adding Dynamic Content with JS
+![image](https://github.com/user-attachments/assets/299687cd-a0fb-4590-8793-1e36afe76938)
+![image](https://github.com/user-attachments/assets/7137f6dc-bfed-4ccb-b565-bc177e367271)
+![image](https://github.com/user-attachments/assets/7c4e5019-7017-4f46-94b0-b5bdbffdf51f)
