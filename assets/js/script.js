@@ -6,7 +6,7 @@ function showFirstProject() {
     projects.sort((a, b) => {
         const dateA = new Date(a.getAttribute('data-date'));
         const dateB = new Date(b.getAttribute('data-date'));
-        return dateB - dateA;
+        return dateB - dateA; // Sort descending
     });
 
     // Hide all projects initially
@@ -46,10 +46,10 @@ function showRemainingProjects(){
     }
 }
 
-// // Run the function when the DOM is fully loaded to show blank project
-// document.addEventListener('DOMContentLoaded', function() {
-//     showBlankProject();
-//   });
+// Run the function when the DOM is fully loaded to show blank project
+document.addEventListener('DOMContentLoaded', function() {
+    showBlankProject();
+  });
 
 
 // Add event listener for "Load More" button
