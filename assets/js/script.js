@@ -29,10 +29,10 @@ function showRemainingProjects(){
 }
 
 
-showFirstProject();
-
 // Add event listener for "Load More" button
 document.addEventListener('DOMContentLoaded', function() {
+    showFirstProject();
+
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', showRemainingProjects);
